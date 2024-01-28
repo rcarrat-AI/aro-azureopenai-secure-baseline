@@ -6,6 +6,8 @@ A repository for deploying Azure Red Hat OpenShift (ARO) and Azure OpenAI within
 
 ![Secure_Baseline_ARO_AzureOpenAI](./assets/Secure_Baseline_ARO_AzureOpenAI.png)
 
+* **IMPORTANT**: The Azure OpenAI networking is with a private endpoint, so the OpenAI service is not exposed to the internet. **The OpenAI service is only accessible from the ARO cluster**.
+
 ## Azure Red Hat OpenShift Private cluster
 
 * Deploy a private cluster with Azure Red Hat OpenShift (ARO) using the [Terraform-ARO repository](https://github.com/rh-mobb/terraform-aro):
