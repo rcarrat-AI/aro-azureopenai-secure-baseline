@@ -18,6 +18,6 @@ variable "resource_group_name" {
 
 variable "azureopenai_subnet_cidr" {
   type        = string
-  default     = "10.0.20.0/24"
+  default     = "10.0.14.0/24"
   description = "cidr range for aro virtual network"
 }
